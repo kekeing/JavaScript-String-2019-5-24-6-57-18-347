@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 语句</h2>
+
+<p><b>JavaScript 程序</b> 是一系列由计算机执行的 <b>语句</b>。</p>
+
+<p>把字符串转换为小写：</p>
+
+<button onclick="myFunction()">试一试</button>
+
+<p id="demo">hello</p>
+
+<script>
+function myFunction() {
+	  var text = document.getElementById("demo").innerHTML;
+	  document.getElementById("demo").innerHTML = text.toUpperCase();
+	}
+</script>
+
+</body>
+</html>
